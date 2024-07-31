@@ -95,12 +95,12 @@ Code Overview
 ## NotepadApp: Main class that sets up the GUI and handles user interactions.
 Components:
 
--JFrame SHAPE: Main window frame.
--JPanel PANO: Panel to hold the components.
--JTextArea NOTEPAD: Text area for displaying and editing text.
--JButton KEY: Button to open files.
--JButton KEY2: Button to save files.
--JScrollPane: Scroll pane for the text area to handle large text content.
+- `JFrame SHAPE`: Main window frame.
+- `JPanel PANO`: Panel to hold the components.
+- `JTextArea NOTEPAD`: Text area for displaying and editing text.
+- `JButton KEY`: Button to open files.
+- `JButton KEY2`: Button to save files.
+- `JScrollPane`: Scroll pane for the text area to handle large text content.
 
 Event Listeners:
 ButtonOneActionListener: Handles the file opening logic when the "OPEN" button is pressed.
